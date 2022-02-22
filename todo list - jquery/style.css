@@ -45,6 +45,7 @@ body {
 
 ::placeholder {
     color: rgb(202, 202, 202);
+    text-align: center;
 }
 
 input {
