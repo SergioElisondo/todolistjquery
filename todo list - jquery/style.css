@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "monserrat", sans-serif;
+  box-sizing: border-box;  
+}
+
+body {
+    /* background-image: linear-gradient(120deg,#487eb0,#fbc531); */
+    /* min-height: 100vh; */
+    /* original background above */
+
+    /* https://i.pinimg.com/originals/4e/de/5a/4ede5a33c5490195b2b17466ad26d124.gif  vaporwave sunset 
+    https://grapee.jp/en/wp-content/uploads/15748_4.gif  girl smoking Konbini
+    http://38.media.tumblr.com/6cce1d9b8f3a2e4a54330d80811fa921/tumblr_mtbppdZOrE1qze3hdo1_500.gif  girl on computer
+
+    http://img2.reactor.cc/pics/post/Motocross-Art-Pixel-Gif-Pixel-Art-4707446.gif  parking lot smoker
+
+    */
+    background: url('https://i.pinimg.com/originals/4e/de/5a/4ede5a33c5490195b2b17466ad26d124.gif') no-repeat fixed center center;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding:  10px;
+
+}
+
+.txtb {
+    width: 100%;
+    border: none;
+    /*border-bottom: 2px solid black; */
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    /* text-shadow: 1px 1px 1px white; */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+}
+
+::placeholder {
+    color: rgb(202, 202, 202);
+}
+
+input {
+    color: rgb(202, 202, 202);
+}
+
+h3 {
+    
+    margin: 10px 0;
+    color: rgb(174, 167, 167);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.task {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task {
+    background:rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+div {
+    border-radius: 10px;
+}
